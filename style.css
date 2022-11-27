@@ -5,10 +5,10 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 8px;
-    
+    margin : -8px;
+    padding: 8px 0px;
 }
 
 .links {
@@ -18,15 +18,18 @@ body {
 
 .intro {
     display: flex;
-    justify-content: space-between;
-    margin: 24px 8px;
-    
+    justify-content: space-around;
+    margin-left: -10px;
+    margin-right:-10px;
+    margin-top: -1px;
+    padding: 8px ;
 }
 
 .left-intro {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 30%;
 }
 
 .mid {
@@ -39,26 +42,85 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 52px;
     flex-wrap: wrap;
 }
 
 .info {
     max-width: 200px;
+    text-align: center;
 }
 
 .end {
     display: flex;
     flex-direction: column;
-    margin: 24px 8px;
+    margin: 18px -10px;
     align-items: center;
+    padding: 80px;
 }
 
 .footer {
     display: flex;
-    justify-content: space-around;
-    margin: 24px 8px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #3882f6;
+    height: 72px;
+    width: 60%;
+}
+
+.header , .intro {
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.ti-sub , .sign-up {
+    font-size: 24px;
+}
+
+.random {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+.end {
+    background-color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    max-width: 200px;
+}
+
+.quote , .q-cred {
+    max-width: 60%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.q-cred {
+   align-self: flex-end;
+   font-weight: bold;
 }
 
 ul {
@@ -67,5 +129,9 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.holder {
+    margin-right: 16px;
 }
